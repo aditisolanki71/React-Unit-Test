@@ -9,6 +9,7 @@ const Counter = () => {
    }
    return (
       <>
+         <h3>Counter Example</h3>
          <button data-testid="increment" onClick={handleInc}>+</button>
          <span data-testid="counter">{count}</span>
          <button data-testid="decrement" onClick={handleDec}>-</button>
