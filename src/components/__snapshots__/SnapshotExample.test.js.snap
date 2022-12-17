@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing snapshot for App component 1`] = `
+<div
+  className="App"
+>
+  Learn React
+  <h3>
+    Counter Example
+  </h3>
+  <button
+    data-testid="increment"
+    onClick={[Function]}
+  >
+    +
+  </button>
+  <span
+    data-testid="counter"
+  >
+    0
+  </span>
+  <button
+    data-testid="decrement"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <h3>
+    Matchers Example
+  </h3>
+  <h3>
+    Async code
+  </h3>
+  <div
+    data-testid="fullname"
+  >
+    Full name is:- 
+    Aditi Solanki
+  </div>
+  <h3>
+    Todo List
+  </h3>
+  <p>
+    Loading....
+  </p>
+  <h3>
+    Mock Component Example
+  </h3>
+  <div
+    id="component3"
+  >
+    Component3
+  </div>
+  <div
+    id="component1"
+  >
+    Component1
+  </div>
+  <div
+    id="component2"
+  >
+    Component2
+  </div>
+  <h3>
+    Counter Example
+  </h3>
+  <a
+    href="https://jsonplaceholder.typicode.com/users"
+  >
+    Fake data
+  </a>
+</div>
+`;
+
+exports[`snapshot testing snapshot for Todos component 1`] = `
+Array [
+  <h3>
+    Async code
+  </h3>,
+  <div
+    data-testid="fullname"
+  >
+    Full name is:- 
+    Aditi Solanki
+  </div>,
+  <h3>
+    Todo List
+  </h3>,
+  <p>
+    Loading....
+  </p>,
+]
+`;

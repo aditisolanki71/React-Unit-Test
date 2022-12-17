@@ -2,6 +2,7 @@ import './App.css';
 import Counter from "./components/Counter";
 import Matchers from './components/Matchers';
 import MockComponent from './components/MockComponents/MockComponent';
+import SnapshotExample from './components/SnapshotExample';
 import Todos from './components/Todos';
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Matchers />
       <Todos />
       <MockComponent />
+      <SnapshotExample />
     </div>
   );
 }
